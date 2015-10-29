@@ -7,3 +7,4 @@ spec/dummy
 *~
 .ruby-version
 .ruby-gemset
+.idea
