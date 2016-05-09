@@ -21,4 +21,6 @@ Spree::Core::Engine.routes.draw do
       end
     end
   end
+
+  get 'products/:id/related' , to: 'products#related', as: :related
 end
